@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.55.254.22:5000/acm-workshop/sockshop-ws
+  tag: 0.3.8
   pullPolicy: IfNotPresent
 service:
   name: sockshop-ws
